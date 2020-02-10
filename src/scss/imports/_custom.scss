@@ -1,0 +1,109 @@
+html, body {
+  height: 100%;
+}
+body {
+  padding-top: 72px;
+}
+body.logged-in #topBanner {
+  top: 32px;
+}
+@media screen and (min-width: 768px) {
+  body {
+    padding-top: 144px;
+  }
+}
+@media screen and (min-width: 992px) {
+  body {
+    padding-top: 178px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  body {
+    padding-top: 204px;
+  }
+}
+@media screen and (min-height: 850px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  main {
+    flex: 1;
+  }
+}
+body.nav-open {
+  position: fixed;
+  height: 100vh;
+  overflow: hidden;
+  touch-action: none;
+}
+.page-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.page-banner__image-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,.3);
+}
+.page-banner__caption {
+  position: absolute;
+  font-family: "Museo", sans-serif;
+  font-weight: bold;
+  font-size: 5em;
+  color: white;
+}
+
+.about-ashley-img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+@media screen and (min-width: 768px) {
+  .about-ashley-img {
+    float: left;
+    width: 250px;
+    margin-right: 1rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .about-ashley-img {
+    width: 450px;
+  }
+}
+.home-ashley-img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+@media screen and (min-width: 768px) {
+  .home-ashley-img {
+    float: left;
+    width: 250px;
+    margin-right: 1rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .home-ashley-img {
+    width: 450px;
+  }
+}
+.home-intro-graph {
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+.insta-temp {
+  height: 100px;
+  width: 100px;
+  background: white;
+}
+.footer__social a img {
+  width: 40px;
+  height: auto;
+}

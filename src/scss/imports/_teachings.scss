@@ -1,0 +1,42 @@
+.teachings-sermons-grid #wpfc-sermons-container, .minutes-container {
+  display: grid;
+  grid-template-columns:repeat( auto-fit, minmax(330px, 1fr) );
+  grid-gap: 20px;
+}
+.wpfc-sermon-description,
+.wpfc-sermon-footer,
+.wpfc-sermon-meta-series {
+  display: none;
+}
+.teachings-sermons-grid .wpfc-sermon-shortcode,
+.page-info-feature__action .wpfc-sermon-shortcode,
+.minute-audio {
+	background-color: #efefef;
+	padding: 20px;
+}
+.minute-audio__main--audio audio {
+  width: 100%;
+}
+.teachings-sermons-grid .wpfc-sermon-image-img,
+.page-info-feature__action .wpfc-sermon-image-img,
+.minute-audio__image-img {
+    width: 100%;
+    height: 0;
+    padding-top: 100%;
+    background-size: cover;
+}
+.teachings-sermons-grid .wpfc-sermon-title,
+.page-info-feature__action .wpfc-sermon-title,
+.minute-audio__main--header-title h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.minute-audio__main--header-title h3 {
+  margin-bottom: .5rem;
+}
+.teachings-sermons-grid .wpfc-sermon-meta-date,
+.page-info-feature__action .wpfc-sermon-meta-date {
+  font-size: .8rem;
+  margin-bottom: .5rem;
+}

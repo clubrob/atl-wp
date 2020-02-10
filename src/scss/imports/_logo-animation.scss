@@ -1,0 +1,847 @@
+#atl-animated-logo {
+  display: block;
+  fill: white;
+}
+mask path {
+  fill: none;
+  stroke: white;
+  stroke-width: 18;
+  animation-fill-mode: forwards;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
+#stroke-a1-1 {
+  stroke-dasharray: 162;
+  stroke-dashoffset: 162;
+  animation-name: strokeA1-1;
+}
+#stroke-a1-2 {
+  stroke-dasharray: 33;
+  stroke-dashoffset: 33;
+  animation-name: strokeA1-2;
+}
+#stroke-a1-3 {
+  stroke-dasharray: 242;
+  stroke-dashoffset: 242;
+  animation-name: strokeA1-3;
+}
+#stroke-a2-1 {
+  stroke-dasharray: 123;
+  stroke-dashoffset: 123;
+  animation-name: strokeA2-1;
+}
+#stroke-s1-1 {
+  stroke-dasharray: 97;
+  stroke-dashoffset: 97;
+  animation-name: strokeS1-1;
+}
+#stroke-s2-1 {
+  stroke-dasharray: 33;
+  stroke-dashoffset: 33;
+  animation-name: strokeS2-1;
+}
+#stroke-s2-2 {
+  stroke-dasharray: 102;
+  stroke-dashoffset: 102;
+  animation-name: strokeS2-2;
+}
+#stroke-s3-1 {
+  stroke-dasharray: 60;
+  stroke-dashoffset: 60;
+  animation-name: strokeS3-1;
+}
+#stroke-h1-1 {
+  stroke-dasharray: 119;
+  stroke-dashoffset: 119;
+  animation-name: strokeH1-1;
+}
+#stroke-h2-1 {
+  stroke-dasharray: 171;
+  stroke-dashoffset: 171;
+  animation-name: strokeH2-1;
+}
+#stroke-le1-1 {
+  stroke-dasharray: 201;
+  stroke-dashoffset: 201;
+  animation-name: strokeLE1-1;
+}
+#stroke-le2-1 {
+  stroke-dasharray: 33;
+  stroke-dashoffset: 33;
+  animation-name: strokeLE2-1;
+}
+#stroke-le2-2 {
+  stroke-dasharray: 99;
+  stroke-dashoffset: 99;
+  animation-name: strokeLE2-2;
+}
+#stroke-y1-1 {
+  stroke-dasharray: 202;
+  stroke-dashoffset: 202;
+  animation-name: strokeY1-1;
+}
+#stroke-y1-2 {
+  stroke-dasharray: 187;
+  stroke-dashoffset: 187;
+  animation-name: strokeY1-2;
+}
+#stroke-y2-1 {
+  stroke-dasharray: 186;
+  stroke-dashoffset: 186;
+  animation-name: strokeY2-1;
+}
+#stroke-l1-1 {
+  stroke-dasharray: 372;
+  stroke-dashoffset: 372;
+  animation-name: strokeL1-1;
+}
+#stroke-e11-1 {
+  stroke-dasharray: 82;
+  stroke-dashoffset: 82;
+  animation-name: strokeE11-1;
+}
+#stroke-e12-1 {
+  stroke-dasharray: 33;
+  stroke-dashoffset: 33;
+  animation-name: strokeE12-1;
+}
+#stroke-e12-2 {
+  stroke-dasharray: 96;
+  stroke-dashoffset: 96;
+  animation-name: strokeE12-2;
+}
+#stroke-e21-1 {
+  stroke-dasharray: 82;
+  stroke-dashoffset: 82;
+  animation-name: strokeE21-1;
+}
+#stroke-e22-1 {
+  stroke-dasharray: 31;
+  stroke-dashoffset: 31;
+  animation-name: strokeE22-1;
+}
+#stroke-e22-2 {
+  stroke-dasharray: 100;
+  stroke-dashoffset: 100;
+  animation-name: strokeE22-2;
+}
+#stroke-t1-1 {
+  stroke-dasharray: 234;
+  stroke-dashoffset: 234;
+  animation-name: strokeT1-1;
+}
+#stroke-t2-1 {
+  stroke-dasharray: 243;
+  stroke-dashoffset: 243;
+  animation-name: strokeT2-1;
+}
+
+/* Animations for A */
+@keyframes strokeA1-1 {
+  0% { stroke-dashoffset: 162; }
+  4% { stroke-dashoffset: 0; }
+  8% { stroke-dashoffset: 0; }
+  12% { stroke-dashoffset: 0; }
+  16% { stroke-dashoffset: 0; }
+  20% { stroke-dashoffset: 0; }
+  24% { stroke-dashoffset: 0; }
+  28% { stroke-dashoffset: 0; }
+  32% { stroke-dashoffset: 0; }
+  36% { stroke-dashoffset: 0; }
+  40% { stroke-dashoffset: 0; }
+  44% { stroke-dashoffset: 0; }
+  48% { stroke-dashoffset: 0; }
+  52% { stroke-dashoffset: 0; }
+  56% { stroke-dashoffset: 0; }
+  60% { stroke-dashoffset: 0; }
+  64% { stroke-dashoffset: 0; }
+  68% { stroke-dashoffset: 0; }
+  72% { stroke-dashoffset: 0; }
+  76% { stroke-dashoffset: 0; }
+  80% { stroke-dashoffset: 0; }
+  84% { stroke-dashoffset: 0; }
+  88% { stroke-dashoffset: 0; }
+  92% { stroke-dashoffset: 0; }
+  96% { stroke-dashoffset: 0; }
+  100% { stroke-dashoffset: 0; }
+}
+@keyframes strokeA1-2 {
+  0% { stroke-dashoffset: 33; }
+  4% { stroke-dashoffset: 33; }
+  8% { stroke-dashoffset: 0; }
+  12% { stroke-dashoffset: 0; }
+  16% { stroke-dashoffset: 0; }
+  20% { stroke-dashoffset: 0; }
+  24% { stroke-dashoffset: 0; }
+  28% { stroke-dashoffset: 0; }
+  32% { stroke-dashoffset: 0; }
+  36% { stroke-dashoffset: 0; }
+  40% { stroke-dashoffset: 0; }
+  44% { stroke-dashoffset: 0; }
+  48% { stroke-dashoffset: 0; }
+  52% { stroke-dashoffset: 0; }
+  56% { stroke-dashoffset: 0; }
+  60% { stroke-dashoffset: 0; }
+  64% { stroke-dashoffset: 0; }
+  68% { stroke-dashoffset: 0; }
+  72% { stroke-dashoffset: 0; }
+  76% { stroke-dashoffset: 0; }
+  80% { stroke-dashoffset: 0; }
+  84% { stroke-dashoffset: 0; }
+  88% { stroke-dashoffset: 0; }
+  92% { stroke-dashoffset: 0; }
+  96% { stroke-dashoffset: 0; }
+  100% { stroke-dashoffset: 0; }
+}
+@keyframes strokeA1-3 {
+  0% { stroke-dashoffset: 242; }
+  4% { stroke-dashoffset: 242; }
+  8% { stroke-dashoffset: 242; }
+  12% { stroke-dashoffset: 0; }
+  16% { stroke-dashoffset: 0; }
+  20% { stroke-dashoffset: 0; }
+  24% { stroke-dashoffset: 0; }
+  28% { stroke-dashoffset: 0; }
+  32% { stroke-dashoffset: 0; }
+  36% { stroke-dashoffset: 0; }
+  40% { stroke-dashoffset: 0; }
+  44% { stroke-dashoffset: 0; }
+  48% { stroke-dashoffset: 0; }
+  52% { stroke-dashoffset: 0; }
+  56% { stroke-dashoffset: 0; }
+  60% { stroke-dashoffset: 0; }
+  64% { stroke-dashoffset: 0; }
+  68% { stroke-dashoffset: 0; }
+  72% { stroke-dashoffset: 0; }
+  76% { stroke-dashoffset: 0; }
+  80% { stroke-dashoffset: 0; }
+  84% { stroke-dashoffset: 0; }
+  88% { stroke-dashoffset: 0; }
+  92% { stroke-dashoffset: 0; }
+  96% { stroke-dashoffset: 0; }
+  100% { stroke-dashoffset: 0; }
+}
+@keyframes strokeA2-1 {
+  0% { stroke-dashoffset: 123; }
+  4% { stroke-dashoffset: 123; }
+  8% { stroke-dashoffset: 123; }
+  12% { stroke-dashoffset: 123; }
+  16% { stroke-dashoffset: 0; }
+  20% { stroke-dashoffset: 0; }
+  24% { stroke-dashoffset: 0; }
+  28% { stroke-dashoffset: 0; }
+  32% { stroke-dashoffset: 0; }
+  36% { stroke-dashoffset: 0; }
+  40% { stroke-dashoffset: 0; }
+  44% { stroke-dashoffset: 0; }
+  48% { stroke-dashoffset: 0; }
+  52% { stroke-dashoffset: 0; }
+  56% { stroke-dashoffset: 0; }
+  60% { stroke-dashoffset: 0; }
+  64% { stroke-dashoffset: 0; }
+  68% { stroke-dashoffset: 0; }
+  72% { stroke-dashoffset: 0; }
+  76% { stroke-dashoffset: 0; }
+  80% { stroke-dashoffset: 0; }
+  84% { stroke-dashoffset: 0; }
+  88% { stroke-dashoffset: 0; }
+  92% { stroke-dashoffset: 0; }
+  96% { stroke-dashoffset: 0; }
+  100% { stroke-dashoffset: 0; }
+}
+/* Animations for S */
+@keyframes strokeS1-1 {
+  0% { stroke-dashoffset: 97; }
+  4% { stroke-dashoffset: 97; }
+  8% { stroke-dashoffset: 97; }
+  12% { stroke-dashoffset: 97; }
+  16% { stroke-dashoffset: 97; }
+  20% { stroke-dashoffset: 0; }
+  24% { stroke-dashoffset: 0; }
+  28% { stroke-dashoffset: 0; }
+  32% { stroke-dashoffset: 0; }
+  36% { stroke-dashoffset: 0; }
+  40% { stroke-dashoffset: 0; }
+  44% { stroke-dashoffset: 0; }
+  48% { stroke-dashoffset: 0; }
+  52% { stroke-dashoffset: 0; }
+  56% { stroke-dashoffset: 0; }
+  60% { stroke-dashoffset: 0; }
+  64% { stroke-dashoffset: 0; }
+  68% { stroke-dashoffset: 0; }
+  72% { stroke-dashoffset: 0; }
+  76% { stroke-dashoffset: 0; }
+  80% { stroke-dashoffset: 0; }
+  84% { stroke-dashoffset: 0; }
+  88% { stroke-dashoffset: 0; }
+  92% { stroke-dashoffset: 0; }
+  96% { stroke-dashoffset: 0; }
+  100% { stroke-dashoffset: 0; }
+}
+@keyframes strokeS2-1 {
+  0% { stroke-dashoffset: 33; }
+  4% { stroke-dashoffset: 33; }
+  8% { stroke-dashoffset: 33; }
+  12% { stroke-dashoffset: 33; }
+  16% { stroke-dashoffset: 33; }
+  20% { stroke-dashoffset: 33; }
+  24% { stroke-dashoffset: 0; }
+  28% { stroke-dashoffset: 0; }
+  32% { stroke-dashoffset: 0; }
+  36% { stroke-dashoffset: 0; }
+  40% { stroke-dashoffset: 0; }
+  44% { stroke-dashoffset: 0; }
+  48% { stroke-dashoffset: 0; }
+  52% { stroke-dashoffset: 0; }
+  56% { stroke-dashoffset: 0; }
+  60% { stroke-dashoffset: 0; }
+  64% { stroke-dashoffset: 0; }
+  68% { stroke-dashoffset: 0; }
+  72% { stroke-dashoffset: 0; }
+  76% { stroke-dashoffset: 0; }
+  80% { stroke-dashoffset: 0; }
+  84% { stroke-dashoffset: 0; }
+  88% { stroke-dashoffset: 0; }
+  92% { stroke-dashoffset: 0; }
+  96% { stroke-dashoffset: 0; }
+  100% { stroke-dashoffset: 0; }
+}
+@keyframes strokeS2-2 {
+  0% { stroke-dashoffset: 102; }
+  4% { stroke-dashoffset: 102; }
+  8% { stroke-dashoffset: 102; }
+  12% { stroke-dashoffset: 102; }
+  16% { stroke-dashoffset: 102; }
+  20% { stroke-dashoffset: 102; }
+  24% { stroke-dashoffset: 102; }
+  28% { stroke-dashoffset: 0; }
+  32% { stroke-dashoffset: 0; }
+  36% { stroke-dashoffset: 0; }
+  40% { stroke-dashoffset: 0; }
+  44% { stroke-dashoffset: 0; }
+  48% { stroke-dashoffset: 0; }
+  52% { stroke-dashoffset: 0; }
+  56% { stroke-dashoffset: 0; }
+  60% { stroke-dashoffset: 0; }
+  64% { stroke-dashoffset: 0; }
+  68% { stroke-dashoffset: 0; }
+  72% { stroke-dashoffset: 0; }
+  76% { stroke-dashoffset: 0; }
+  80% { stroke-dashoffset: 0; }
+  84% { stroke-dashoffset: 0; }
+  88% { stroke-dashoffset: 0; }
+  92% { stroke-dashoffset: 0; }
+  96% { stroke-dashoffset: 0; }
+  100% { stroke-dashoffset: 0; }
+}
+@keyframes strokeS3-1 {
+  0% { stroke-dashoffset: 60; }
+  4% { stroke-dashoffset: 60; }
+  8% { stroke-dashoffset: 60; }
+  12% { stroke-dashoffset: 60; }
+  16% { stroke-dashoffset: 60; }
+  20% { stroke-dashoffset: 60; }
+  24% { stroke-dashoffset: 60; }
+  28% { stroke-dashoffset: 60; }
+  32% { stroke-dashoffset: 0; }
+  36% { stroke-dashoffset: 0; }
+  40% { stroke-dashoffset: 0; }
+  44% { stroke-dashoffset: 0; }
+  48% { stroke-dashoffset: 0; }
+  52% { stroke-dashoffset: 0; }
+  56% { stroke-dashoffset: 0; }
+  60% { stroke-dashoffset: 0; }
+  64% { stroke-dashoffset: 0; }
+  68% { stroke-dashoffset: 0; }
+  72% { stroke-dashoffset: 0; }
+  76% { stroke-dashoffset: 0; }
+  80% { stroke-dashoffset: 0; }
+  84% { stroke-dashoffset: 0; }
+  88% { stroke-dashoffset: 0; }
+  92% { stroke-dashoffset: 0; }
+  96% { stroke-dashoffset: 0; }
+  100% { stroke-dashoffset: 0; }
+}
+/* Animations for H */
+@keyframes strokeH1-1 {
+  0% { stroke-dashoffset: 119; }
+  4% { stroke-dashoffset: 119; }
+  8% { stroke-dashoffset: 119; }
+  12% { stroke-dashoffset: 119; }
+  16% { stroke-dashoffset: 119; }
+  20% { stroke-dashoffset: 119; }
+  24% { stroke-dashoffset: 119; }
+  28% { stroke-dashoffset: 119; }
+  32% { stroke-dashoffset: 119; }
+  36% { stroke-dashoffset: 0; }
+  40% { stroke-dashoffset: 0; }
+  44% { stroke-dashoffset: 0; }
+  48% { stroke-dashoffset: 0; }
+  52% { stroke-dashoffset: 0; }
+  56% { stroke-dashoffset: 0; }
+  60% { stroke-dashoffset: 0; }
+  64% { stroke-dashoffset: 0; }
+  68% { stroke-dashoffset: 0; }
+  72% { stroke-dashoffset: 0; }
+  76% { stroke-dashoffset: 0; }
+  80% { stroke-dashoffset: 0; }
+  84% { stroke-dashoffset: 0; }
+  88% { stroke-dashoffset: 0; }
+  92% { stroke-dashoffset: 0; }
+  96% { stroke-dashoffset: 0; }
+  100% { stroke-dashoffset: 0; }
+}
+@keyframes strokeH2-1 {
+  0% { stroke-dashoffset: 171; }
+  4% { stroke-dashoffset: 171; }
+  8% { stroke-dashoffset: 171; }
+  12% { stroke-dashoffset: 171; }
+  16% { stroke-dashoffset: 171; }
+  20% { stroke-dashoffset: 171; }
+  24% { stroke-dashoffset: 171; }
+  28% { stroke-dashoffset: 171; }
+  32% { stroke-dashoffset: 171; }
+  36% { stroke-dashoffset: 171; }
+  40% { stroke-dashoffset: 0; }
+  44% { stroke-dashoffset: 0; }
+  48% { stroke-dashoffset: 0; }
+  52% { stroke-dashoffset: 0; }
+  56% { stroke-dashoffset: 0; }
+  60% { stroke-dashoffset: 0; }
+  64% { stroke-dashoffset: 0; }
+  68% { stroke-dashoffset: 0; }
+  72% { stroke-dashoffset: 0; }
+  76% { stroke-dashoffset: 0; }
+  80% { stroke-dashoffset: 0; }
+  84% { stroke-dashoffset: 0; }
+  88% { stroke-dashoffset: 0; }
+  92% { stroke-dashoffset: 0; }
+  96% { stroke-dashoffset: 0; }
+  100% { stroke-dashoffset: 0; }
+}
+/* Animations for LE */
+@keyframes strokeLE1-1 {
+  0% { stroke-dashoffset: 201; }
+  4% { stroke-dashoffset: 201; }
+  8% { stroke-dashoffset: 201; }
+  12% { stroke-dashoffset: 201; }
+  16% { stroke-dashoffset: 201; }
+  20% { stroke-dashoffset: 201; }
+  24% { stroke-dashoffset: 201; }
+  28% { stroke-dashoffset: 201; }
+  32% { stroke-dashoffset: 201; }
+  36% { stroke-dashoffset: 201; }
+  40% { stroke-dashoffset: 201; }
+  44% { stroke-dashoffset: 0; }
+  48% { stroke-dashoffset: 0; }
+  52% { stroke-dashoffset: 0; }
+  56% { stroke-dashoffset: 0; }
+  60% { stroke-dashoffset: 0; }
+  64% { stroke-dashoffset: 0; }
+  68% { stroke-dashoffset: 0; }
+  72% { stroke-dashoffset: 0; }
+  76% { stroke-dashoffset: 0; }
+  80% { stroke-dashoffset: 0; }
+  84% { stroke-dashoffset: 0; }
+  88% { stroke-dashoffset: 0; }
+  92% { stroke-dashoffset: 0; }
+  96% { stroke-dashoffset: 0; }
+  100% { stroke-dashoffset: 0; }
+}
+@keyframes strokeLE2-1 {
+  0% { stroke-dashoffset: 32; }
+  4% { stroke-dashoffset: 32; }
+  8% { stroke-dashoffset: 32; }
+  12% { stroke-dashoffset: 32; }
+  16% { stroke-dashoffset: 32; }
+  20% { stroke-dashoffset: 32; }
+  24% { stroke-dashoffset: 32; }
+  28% { stroke-dashoffset: 32; }
+  32% { stroke-dashoffset: 32; }
+  36% { stroke-dashoffset: 32; }
+  40% { stroke-dashoffset: 32; }
+  44% { stroke-dashoffset: 32; }
+  48% { stroke-dashoffset: 0; }
+  52% { stroke-dashoffset: 0; }
+  56% { stroke-dashoffset: 0; }
+  60% { stroke-dashoffset: 0; }
+  64% { stroke-dashoffset: 0; }
+  68% { stroke-dashoffset: 0; }
+  72% { stroke-dashoffset: 0; }
+  76% { stroke-dashoffset: 0; }
+  80% { stroke-dashoffset: 0; }
+  84% { stroke-dashoffset: 0; }
+  88% { stroke-dashoffset: 0; }
+  92% { stroke-dashoffset: 0; }
+  96% { stroke-dashoffset: 0; }
+  100% { stroke-dashoffset: 0; }
+}
+@keyframes strokeLE2-2 {
+  0% { stroke-dashoffset: 99; }
+  4% { stroke-dashoffset: 99; }
+  8% { stroke-dashoffset: 99; }
+  12% { stroke-dashoffset: 99; }
+  16% { stroke-dashoffset: 99; }
+  20% { stroke-dashoffset: 99; }
+  24% { stroke-dashoffset: 99; }
+  28% { stroke-dashoffset: 99; }
+  32% { stroke-dashoffset: 99; }
+  36% { stroke-dashoffset: 99; }
+  40% { stroke-dashoffset: 99; }
+  44% { stroke-dashoffset: 99; }
+  48% { stroke-dashoffset: 99; }
+  52% { stroke-dashoffset: 0; }
+  56% { stroke-dashoffset: 0; }
+  60% { stroke-dashoffset: 0; }
+  64% { stroke-dashoffset: 0; }
+  68% { stroke-dashoffset: 0; }
+  72% { stroke-dashoffset: 0; }
+  76% { stroke-dashoffset: 0; }
+  80% { stroke-dashoffset: 0; }
+  84% { stroke-dashoffset: 0; }
+  88% { stroke-dashoffset: 0; }
+  92% { stroke-dashoffset: 0; }
+  96% { stroke-dashoffset: 0; }
+  100% { stroke-dashoffset: 0; }
+}
+/* Animations for Y */
+@keyframes strokeY1-1 {
+  0% { stroke-dashoffset: 202; }
+  4% { stroke-dashoffset: 202; }
+  8% { stroke-dashoffset: 202; }
+  12% { stroke-dashoffset: 202; }
+  16% { stroke-dashoffset: 202; }
+  20% { stroke-dashoffset: 202; }
+  24% { stroke-dashoffset: 202; }
+  28% { stroke-dashoffset: 202; }
+  32% { stroke-dashoffset: 202; }
+  36% { stroke-dashoffset: 202; }
+  40% { stroke-dashoffset: 202; }
+  44% { stroke-dashoffset: 202; }
+  48% { stroke-dashoffset: 202; }
+  52% { stroke-dashoffset: 202; }
+  56% { stroke-dashoffset: 0; }
+  60% { stroke-dashoffset: 0; }
+  64% { stroke-dashoffset: 0; }
+  68% { stroke-dashoffset: 0; }
+  72% { stroke-dashoffset: 0; }
+  76% { stroke-dashoffset: 0; }
+  80% { stroke-dashoffset: 0; }
+  84% { stroke-dashoffset: 0; }
+  88% { stroke-dashoffset: 0; }
+  92% { stroke-dashoffset: 0; }
+  96% { stroke-dashoffset: 0; }
+  100% { stroke-dashoffset: 0; }
+}
+@keyframes strokeY1-2 {
+  0% { stroke-dashoffset: 187; }
+  4% { stroke-dashoffset: 187; }
+  8% { stroke-dashoffset: 187; }
+  12% { stroke-dashoffset: 187; }
+  16% { stroke-dashoffset: 187; }
+  20% { stroke-dashoffset: 187; }
+  24% { stroke-dashoffset: 187; }
+  28% { stroke-dashoffset: 187; }
+  32% { stroke-dashoffset: 187; }
+  36% { stroke-dashoffset: 187; }
+  40% { stroke-dashoffset: 187; }
+  44% { stroke-dashoffset: 187; }
+  48% { stroke-dashoffset: 187; }
+  52% { stroke-dashoffset: 187; }
+  56% { stroke-dashoffset: 187; }
+  60% { stroke-dashoffset: 0; }
+  64% { stroke-dashoffset: 0; }
+  68% { stroke-dashoffset: 0; }
+  72% { stroke-dashoffset: 0; }
+  76% { stroke-dashoffset: 0; }
+  80% { stroke-dashoffset: 0; }
+  84% { stroke-dashoffset: 0; }
+  88% { stroke-dashoffset: 0; }
+  92% { stroke-dashoffset: 0; }
+  96% { stroke-dashoffset: 0; }
+  100% { stroke-dashoffset: 0; }
+}
+@keyframes strokeY2-1 {
+  0% { stroke-dashoffset: 186; }
+  4% { stroke-dashoffset: 186; }
+  8% { stroke-dashoffset: 186; }
+  12% { stroke-dashoffset: 186; }
+  16% { stroke-dashoffset: 186; }
+  20% { stroke-dashoffset: 186; }
+  24% { stroke-dashoffset: 186; }
+  28% { stroke-dashoffset: 186; }
+  32% { stroke-dashoffset: 186; }
+  36% { stroke-dashoffset: 186; }
+  40% { stroke-dashoffset: 186; }
+  44% { stroke-dashoffset: 186; }
+  48% { stroke-dashoffset: 186; }
+  52% { stroke-dashoffset: 186; }
+  56% { stroke-dashoffset: 186; }
+  60% { stroke-dashoffset: 186; }
+  64% { stroke-dashoffset: 0; }
+  68% { stroke-dashoffset: 0; }
+  72% { stroke-dashoffset: 0; }
+  76% { stroke-dashoffset: 0; }
+  80% { stroke-dashoffset: 0; }
+  84% { stroke-dashoffset: 0; }
+  88% { stroke-dashoffset: 0; }
+  92% { stroke-dashoffset: 0; }
+  96% { stroke-dashoffset: 0; }
+  100% { stroke-dashoffset: 0; }
+}
+/* Animations for L */
+@keyframes strokeL1-1 {
+  0% { stroke-dashoffset: 372; }
+  4% { stroke-dashoffset: 372; }
+  8% { stroke-dashoffset: 372; }
+  12% { stroke-dashoffset: 372; }
+  16% { stroke-dashoffset: 372; }
+  20% { stroke-dashoffset: 372; }
+  24% { stroke-dashoffset: 372; }
+  28% { stroke-dashoffset: 372; }
+  32% { stroke-dashoffset: 372; }
+  36% { stroke-dashoffset: 372; }
+  40% { stroke-dashoffset: 372; }
+  44% { stroke-dashoffset: 372; }
+  48% { stroke-dashoffset: 372; }
+  52% { stroke-dashoffset: 372; }
+  56% { stroke-dashoffset: 372; }
+  60% { stroke-dashoffset: 372; }
+  64% { stroke-dashoffset: 372; }
+  68% { stroke-dashoffset: 0; }
+  72% { stroke-dashoffset: 0; }
+  76% { stroke-dashoffset: 0; }
+  80% { stroke-dashoffset: 0; }
+  84% { stroke-dashoffset: 0; }
+  88% { stroke-dashoffset: 0; }
+  92% { stroke-dashoffset: 0; }
+  96% { stroke-dashoffset: 0; }
+  100% { stroke-dashoffset: 0; }
+}
+/* Animations for E1 */
+@keyframes strokeE11-1 {
+  0% { stroke-dashoffset: 82; }
+  4% { stroke-dashoffset: 82; }
+  8% { stroke-dashoffset: 82; }
+  12% { stroke-dashoffset: 82; }
+  16% { stroke-dashoffset: 82; }
+  20% { stroke-dashoffset: 82; }
+  24% { stroke-dashoffset: 82; }
+  28% { stroke-dashoffset: 82; }
+  32% { stroke-dashoffset: 82; }
+  36% { stroke-dashoffset: 82; }
+  40% { stroke-dashoffset: 82; }
+  44% { stroke-dashoffset: 82; }
+  48% { stroke-dashoffset: 82; }
+  52% { stroke-dashoffset: 82; }
+  56% { stroke-dashoffset: 82; }
+  60% { stroke-dashoffset: 82; }
+  64% { stroke-dashoffset: 82; }
+  68% { stroke-dashoffset: 82; }
+  72% { stroke-dashoffset: 0; }
+  76% { stroke-dashoffset: 0; }
+  80% { stroke-dashoffset: 0; }
+  84% { stroke-dashoffset: 0; }
+  88% { stroke-dashoffset: 0; }
+  92% { stroke-dashoffset: 0; }
+  96% { stroke-dashoffset: 0; }
+  100% { stroke-dashoffset: 0; }
+}
+@keyframes strokeE12-1 {
+  0% { stroke-dashoffset: 33; }
+  4% { stroke-dashoffset: 33; }
+  8% { stroke-dashoffset: 33; }
+  12% { stroke-dashoffset: 33; }
+  16% { stroke-dashoffset: 33; }
+  20% { stroke-dashoffset: 33; }
+  24% { stroke-dashoffset: 33; }
+  28% { stroke-dashoffset: 33; }
+  32% { stroke-dashoffset: 33; }
+  36% { stroke-dashoffset: 33; }
+  40% { stroke-dashoffset: 33; }
+  44% { stroke-dashoffset: 33; }
+  48% { stroke-dashoffset: 33; }
+  52% { stroke-dashoffset: 33; }
+  56% { stroke-dashoffset: 33; }
+  60% { stroke-dashoffset: 33; }
+  64% { stroke-dashoffset: 33; }
+  68% { stroke-dashoffset: 33; }
+  72% { stroke-dashoffset: 33; }
+  76% { stroke-dashoffset: 0; }
+  80% { stroke-dashoffset: 0; }
+  84% { stroke-dashoffset: 0; }
+  88% { stroke-dashoffset: 0; }
+  92% { stroke-dashoffset: 0; }
+  96% { stroke-dashoffset: 0; }
+  100% { stroke-dashoffset: 0; }
+}
+@keyframes strokeE12-2 {
+  0% { stroke-dashoffset: 96; }
+  4% { stroke-dashoffset: 96; }
+  8% { stroke-dashoffset: 96; }
+  12% { stroke-dashoffset: 96; }
+  16% { stroke-dashoffset: 96; }
+  20% { stroke-dashoffset: 96; }
+  24% { stroke-dashoffset: 96; }
+  28% { stroke-dashoffset: 96; }
+  32% { stroke-dashoffset: 96; }
+  36% { stroke-dashoffset: 96; }
+  40% { stroke-dashoffset: 96; }
+  44% { stroke-dashoffset: 96; }
+  48% { stroke-dashoffset: 96; }
+  52% { stroke-dashoffset: 96; }
+  56% { stroke-dashoffset: 96; }
+  60% { stroke-dashoffset: 96; }
+  64% { stroke-dashoffset: 96; }
+  68% { stroke-dashoffset: 96; }
+  72% { stroke-dashoffset: 96; }
+  76% { stroke-dashoffset: 96; }
+  80% { stroke-dashoffset: 0; }
+  84% { stroke-dashoffset: 0; }
+  88% { stroke-dashoffset: 0; }
+  92% { stroke-dashoffset: 0; }
+  96% { stroke-dashoffset: 0; }
+  100% { stroke-dashoffset: 0; }
+}
+/* Animations for E2 */
+@keyframes strokeE21-1 {
+  0% { stroke-dashoffset: 82; }
+  4% { stroke-dashoffset: 82; }
+  8% { stroke-dashoffset: 82; }
+  12% { stroke-dashoffset: 82; }
+  16% { stroke-dashoffset: 82; }
+  20% { stroke-dashoffset: 82; }
+  24% { stroke-dashoffset: 82; }
+  28% { stroke-dashoffset: 82; }
+  32% { stroke-dashoffset: 82; }
+  36% { stroke-dashoffset: 82; }
+  40% { stroke-dashoffset: 82; }
+  44% { stroke-dashoffset: 82; }
+  48% { stroke-dashoffset: 82; }
+  52% { stroke-dashoffset: 82; }
+  56% { stroke-dashoffset: 82; }
+  60% { stroke-dashoffset: 82; }
+  64% { stroke-dashoffset: 82; }
+  68% { stroke-dashoffset: 82; }
+  72% { stroke-dashoffset: 82; }
+  76% { stroke-dashoffset: 82; }
+  80% { stroke-dashoffset: 82; }
+  84% { stroke-dashoffset: 0; }
+  88% { stroke-dashoffset: 0; }
+  92% { stroke-dashoffset: 0; }
+  96% { stroke-dashoffset: 0; }
+  100% { stroke-dashoffset: 0; }
+}
+@keyframes strokeE22-1 {
+  0% { stroke-dashoffset: 31; }
+  4% { stroke-dashoffset: 31; }
+  8% { stroke-dashoffset: 31; }
+  12% { stroke-dashoffset: 31; }
+  16% { stroke-dashoffset: 31; }
+  20% { stroke-dashoffset: 31; }
+  24% { stroke-dashoffset: 31; }
+  28% { stroke-dashoffset: 31; }
+  32% { stroke-dashoffset: 31; }
+  36% { stroke-dashoffset: 31; }
+  40% { stroke-dashoffset: 31; }
+  44% { stroke-dashoffset: 31; }
+  48% { stroke-dashoffset: 31; }
+  52% { stroke-dashoffset: 31; }
+  56% { stroke-dashoffset: 31; }
+  60% { stroke-dashoffset: 31; }
+  64% { stroke-dashoffset: 31; }
+  68% { stroke-dashoffset: 31; }
+  72% { stroke-dashoffset: 31; }
+  76% { stroke-dashoffset: 31; }
+  80% { stroke-dashoffset: 31; }
+  84% { stroke-dashoffset: 31; }
+  88% { stroke-dashoffset: 0; }
+  92% { stroke-dashoffset: 0; }
+  96% { stroke-dashoffset: 0; }
+  100% { stroke-dashoffset: 0; }
+}
+@keyframes strokeE22-2 {
+  0% { stroke-dashoffset: 100; }
+  4% { stroke-dashoffset: 100; }
+  8% { stroke-dashoffset: 100; }
+  12% { stroke-dashoffset: 100; }
+  16% { stroke-dashoffset: 100; }
+  20% { stroke-dashoffset: 100; }
+  24% { stroke-dashoffset: 100; }
+  28% { stroke-dashoffset: 100; }
+  32% { stroke-dashoffset: 100; }
+  36% { stroke-dashoffset: 100; }
+  40% { stroke-dashoffset: 100; }
+  44% { stroke-dashoffset: 100; }
+  48% { stroke-dashoffset: 100; }
+  52% { stroke-dashoffset: 100; }
+  56% { stroke-dashoffset: 100; }
+  60% { stroke-dashoffset: 100; }
+  64% { stroke-dashoffset: 100; }
+  68% { stroke-dashoffset: 100; }
+  72% { stroke-dashoffset: 100; }
+  76% { stroke-dashoffset: 100; }
+  80% { stroke-dashoffset: 100; }
+  84% { stroke-dashoffset: 100; }
+  88% { stroke-dashoffset: 100; }
+  92% { stroke-dashoffset: 0; }
+  96% { stroke-dashoffset: 0; }
+  100% { stroke-dashoffset: 0; }
+}
+/* Animations for T */
+@keyframes strokeT1-1 {
+  0% { stroke-dashoffset: 234; }
+  4% { stroke-dashoffset: 234; }
+  8% { stroke-dashoffset: 234; }
+  12% { stroke-dashoffset: 234; }
+  16% { stroke-dashoffset: 234; }
+  20% { stroke-dashoffset: 234; }
+  24% { stroke-dashoffset: 234; }
+  28% { stroke-dashoffset: 234; }
+  32% { stroke-dashoffset: 234; }
+  36% { stroke-dashoffset: 234; }
+  40% { stroke-dashoffset: 234; }
+  44% { stroke-dashoffset: 234; }
+  48% { stroke-dashoffset: 234; }
+  52% { stroke-dashoffset: 234; }
+  56% { stroke-dashoffset: 234; }
+  60% { stroke-dashoffset: 234; }
+  64% { stroke-dashoffset: 234; }
+  68% { stroke-dashoffset: 234; }
+  72% { stroke-dashoffset: 234; }
+  76% { stroke-dashoffset: 234; }
+  80% { stroke-dashoffset: 234; }
+  84% { stroke-dashoffset: 234; }
+  88% { stroke-dashoffset: 234; }
+  92% { stroke-dashoffset: 234; }
+  96% { stroke-dashoffset: 0; }
+  100% { stroke-dashoffset: 0; }
+}
+@keyframes strokeT2-1 {
+  0% { stroke-dashoffset: 242; }
+  4% { stroke-dashoffset: 242; }
+  8% { stroke-dashoffset: 242; }
+  12% { stroke-dashoffset: 242; }
+  16% { stroke-dashoffset: 242; }
+  20% { stroke-dashoffset: 242; }
+  24% { stroke-dashoffset: 242; }
+  28% { stroke-dashoffset: 242; }
+  32% { stroke-dashoffset: 242; }
+  36% { stroke-dashoffset: 242; }
+  40% { stroke-dashoffset: 242; }
+  44% { stroke-dashoffset: 242; }
+  48% { stroke-dashoffset: 242; }
+  52% { stroke-dashoffset: 242; }
+  56% { stroke-dashoffset: 242; }
+  60% { stroke-dashoffset: 242; }
+  64% { stroke-dashoffset: 242; }
+  68% { stroke-dashoffset: 242; }
+  72% { stroke-dashoffset: 242; }
+  76% { stroke-dashoffset: 242; }
+  80% { stroke-dashoffset: 242; }
+  84% { stroke-dashoffset: 242; }
+  88% { stroke-dashoffset: 242; }
+  92% { stroke-dashoffset: 242; }
+  96% { stroke-dashoffset: 242; }
+  100% { stroke-dashoffset: 0; }
+}

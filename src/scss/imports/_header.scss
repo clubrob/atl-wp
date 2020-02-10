@@ -1,0 +1,60 @@
+#wpadminbar {
+  position: fixed;
+}
+.site-header {
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  height: 70px;
+  .site-branding {
+    background: var(--primary);
+    > a {
+      display: block;
+      height: 4.375rem;
+      width: 13.125rem;
+      margin: 0 auto;
+      padding: .5rem;
+      svg {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+body.admin-bar .site-header {
+  top: 46px;
+}
+
+@media screen and (min-width: 48rem) {
+  .site-header {
+    height: auto;
+    .site-branding {
+      height: 100px;
+      width: auto;
+      transition: height 150ms linear;
+      > a {
+        height: 100%;
+        width: auto;
+        > svg {
+          height: 100%;
+          width: auto;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+    }
+  }
+  .site-header.scrolled {
+    .site-branding {
+      height: 80px;
+    }
+  }
+}
+
+@media screen and (min-width: 783px) {
+  body.admin-bar .site-header {
+    top: 32px;
+  }
+}
+

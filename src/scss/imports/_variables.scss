@@ -1,0 +1,27 @@
+// Typefaces
+@font-face {
+  font-family: 'Museo';
+  src: url('./fonts/museo700-regular-webfont.woff2') format('woff2'),
+       url('./fonts/museo700-regular-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+:root {
+  --primary: #5CD1D6;
+  --secondary: #8FDCE0;
+  --tertiary: #269196;
+  --light: #f7f7f7;
+  --dark: #717274;
+  --font-body: "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-head: "Museo", sans-serif;
+  --size-400: 1rem;
+  --size-500: 1.33rem;
+  --size-600: 1.77rem;
+  --size-700: 2.37rem;
+  --size-800: 3.16rem;
+  --size-900: 4.2rem;
+  --size-1000: 5.6rem;
+  --size-1100: 7.45rem;
+  --flow-space: 1em;
+}
