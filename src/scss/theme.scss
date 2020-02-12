@@ -6,13 +6,14 @@
 @import "./imports/logo-animation";
 @import "./imports/overrides";
 @import "./imports/blog";
-// @import "./imports/button.scss";
-// @import "./imports/footer.scss";
-// @import "./imports/teachings.scss";
+@import "./components/audio-player/audio-player";
+@import "./imports/button.scss";
+@import "./imports/footer.scss";
 
 /* Global */
 body {
   padding-top: 70px;
+  margin: 0 !important;
   font-family: var(--font-body);
   color: var(--dark);
   background-color: var(--light);
@@ -24,6 +25,9 @@ body {
 }
 .site-main * + * {
   margin-top: var(--flow-space);
+}
+.entry-content {
+  // padding-bottom: var(--size-700);
 }
 h1,h2,h3,h4,h5,h6 {
   font-family: var(--font-head);
@@ -86,6 +90,60 @@ a {
   }
   &:hover {
     text-decoration: none;
+  }
+}
+.atl-app-block {
+  .wp-block-group {
+    padding-bottom: var(--size-500);
+  }
+  .wp-block-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.site {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 180px);
+}
+.site-content {
+  flex: 1;
+}
+.site-content .page-thumbnail {
+  position: relative;
+  &:after {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.3);
+  }
+  .caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    h1 {
+      -webkit-text-stroke: 1px rgba(255,255,255,0.7);
+      text-shadow: 3px 3px 3px rgba(0,0,0,0.2);
+      font-size: var(--size-900);
+    }
+  }
+}
+
+@media screen and (min-width: 48rem) {
+  .site-content .page-thumbnail .caption h1 {
+    font-size: var(--size-1000);
   }
 }
 

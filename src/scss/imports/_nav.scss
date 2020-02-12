@@ -103,7 +103,7 @@
   }
 }
 
-@media screen and (min-width: 48rem) {
+@media screen and (min-width: 41.6875rem) {
   .menu-toggle {
     display: none;
   }
@@ -143,7 +143,7 @@
             text-decoration: none;
           }
           img {
-            width: 35%;
+            width: 55%;
             max-width: 130px;
             height: auto;
             margin-right: 0 !important;
@@ -156,7 +156,16 @@
   .site-header.scrolled .main-navigation {
     height: 60px;
     ul li a img {
-      width: 25%;
+      width: 45%;
     }
+  }
+}
+
+@media screen and (min-width: 64rem) {
+  .main-navigation ul li  a img {
+    width: 35%;
+  }
+  .site-header.scrolled .main-navigation ul li a img {
+    width: 25%;
   }
 }

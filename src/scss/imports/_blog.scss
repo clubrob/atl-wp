@@ -5,36 +5,3 @@
     margin-bottom: var(--size-700);
   }
 }
-.site-content .content-area .page-thumbnail {
-  position: relative;
-  &:after {
-    display: block;
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(255,255,255,0.3);
-  }
-  .caption {
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    z-index: 10;
-    h1 {
-      font-size: var(--size-900);
-    }
-  }
-}
-
-@media screen and (min-width: 48rem) {
-  .site-content .content-area .page-thumbnail .caption h1 {
-    font-size: var(--size-1100);
-  }
-}

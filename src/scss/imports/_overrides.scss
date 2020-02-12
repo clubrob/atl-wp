@@ -1,6 +1,6 @@
 /* Instagram Feed */
 #sb_instagram {
-  padding: var(--size-500) !important;
+  padding: 0 var(--size-500) var(--size-800) var(--size-500)  !important;
   * + * {
     margin-top: 0;
   }
@@ -13,9 +13,12 @@
 #sb_instagram .sbi_follow_btn a {
   background: var(--tertiary);
   &:hover {
-    background: var(--tertiary);
+    background: var(--primary-mid);
     box-shadow: none;
   }
+}
+.atl-instagram-block h3 {
+  padding-top: var(--size-700);
 }
 
 /* Sermons Plugin */
@@ -26,7 +29,7 @@
 .teachings-sermons-grid #wpfc-sermons-container,
 .minutes-container {
   display: grid;
-  grid-template-columns:repeat( auto-fit, minmax(330px, 1fr) );
+  grid-template-columns:repeat( auto-fit, minmax(315px, 1fr) );
   grid-gap: var(--size-500);
 }
 .wpfc-sermon-description,
@@ -40,7 +43,8 @@
 	background-color: #efefef;
 	padding: 20px;
 }
-.minute-audio__main--audio audio {
+.minute-audio__main--audio audio,
+.wpfc-sermon-player {
   width: 100%;
 }
 .teachings-sermons-grid .wpfc-sermon-image-img,
@@ -75,4 +79,12 @@
 .tribe-events .tribe-events-calendar-month__day--current .tribe-events-calendar-month__day-date-link:focus,
 .tribe-events .tribe-events-calendar-month__day--current .tribe-events-calendar-month__day-date-link:hover {
   color: var(--tertiary);
+}
+.tribe-events-c-ical {
+  display: none;
+}
+
+/* Margin Overrides */
+.type-page {
+  margin: 0;
 }
