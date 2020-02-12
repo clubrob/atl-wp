@@ -126,6 +126,8 @@ function atl_v1_scripts() {
 
 	wp_enqueue_script( 'atl-v1-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
+	wp_enqueue_script( 'atl-v1-audio', get_template_directory_uri() . '/js/green-audio-player.min.js', array(), '20151215', false );
+
 	wp_enqueue_script( 'atl-v1-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'atl-v1-scripts-file', get_template_directory_uri() . '/js/scripts.js', array('jquery'), '20151215', true );
