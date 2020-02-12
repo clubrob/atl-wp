@@ -69,9 +69,23 @@ get_header();
         </div>
       <?php
       else :
-        esc_html_e( 'No testimonials in the diving taxonomy!', 'text-domain' );
+        esc_html_e( 'No audio clips...', 'text-domain' );
       endif;
       ?>
+        <script>
+          document.addEventListener("DOMContentLoaded", function() {
+            const audioElements = document.querySelectorAll('.wp-block-audio > audio');
+
+            audioElements.forEach(elem => {
+              elem.removeAttribute('controls');
+            });
+
+            GreenAudioPlayer.init({
+              selector: '.wp-block-audio',
+              stopOthersOnPlay: true
+            });
+          });
+        </script>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
