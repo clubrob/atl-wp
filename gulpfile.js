@@ -13,6 +13,8 @@ const terser = require('gulp-uglify-es').default;
 const browser = require('browser-sync').create();
 const reload = browser.reload;
 
+sass.compiler = require('sass');
+
 function processCSS() {
   return src('./src/scss/theme.scss')
     .pipe(sass({
