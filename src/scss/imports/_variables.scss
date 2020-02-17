@@ -26,3 +26,14 @@
   --size-1100: 7.45rem;
   --flow-space: 1em;
 }
+
+@keyframes fadeIn {
+  from {
+    transform: scale(.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

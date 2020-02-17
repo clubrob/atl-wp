@@ -37,13 +37,13 @@ get_header();
         'post_status' => 'publish'
       );
 
-      $testimonials = new WP_Query( $args );
-      if( $testimonials->have_posts() ) :
+      $audio_clips = new WP_Query( $args );
+      if( $audio_clips->have_posts() ) :
       ?>
-        <div class="minutes-container single-column">
+        <div class="minutes-container single-column pb">
           <?php
-            while( $testimonials->have_posts() ) :
-              $testimonials->the_post();
+            while( $audio_clips->have_posts() ) :
+              $audio_clips->the_post();
               ?>
                 <div class="minute-audio">
                   <div class="minute-audio__inner">

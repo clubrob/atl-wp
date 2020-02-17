@@ -5,6 +5,9 @@
 // .lede.left {
 //   text-align: left;
 // }
+.no-flow {
+  --flow-space: 0;
+}
 .m-0 {
   margin: 0 !important;
 }
@@ -28,11 +31,17 @@
 // .bg-light {
 //   // background-color: $light-gray;
 // }
-// .text-primary {
-//   color: $primary;
-// }
+.text-primary {
+  color: var(--primary) !important;
+}
 .text-light {
-  color: var(--light);
+  color: var(--light) !important;
+}
+.text-tertiary {
+  color: var(--tertiary) !important;
+}
+.text-dark {
+  color: var(--dark) !important;
 }
 // .text-bold {
 //   font-weight: bold;
@@ -64,9 +73,9 @@
 // .pt {
 //   padding-top: 1.25rem;
 // }
-// .pb {
-//   padding-bottom: 1.25rem;
-// }
+.pb {
+  padding-bottom: var(--size-700) !important;
+}
 // .pl {
 //   padding-left: 1.25rem;
 // }

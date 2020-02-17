@@ -1,4 +1,7 @@
 /* Instagram Feed */
+.instagram-block {
+  padding-top: var(--size-600);
+}
 #sb_instagram {
   padding: 0 var(--size-500) var(--size-800) var(--size-500)  !important;
   * + * {
@@ -29,8 +32,12 @@
 .teachings-sermons-grid #wpfc-sermons-container,
 .minutes-container {
   display: grid;
-  grid-template-columns:repeat( auto-fit, minmax(315px, 1fr) );
+  grid-template-columns: repeat( auto-fit, minmax(315px, 1fr) );
   grid-gap: var(--size-500);
+}
+.wpfc-sermon, .minute-audio {
+  animation: 350ms ease-in-out fadeIn;
+  transition: all 600ms ease-in-out;
 }
 .wpfc-sermon-description,
 .wpfc-sermon-footer,

@@ -1,5 +1,4 @@
 .site-footer {
-  margin-top: var(--size-700);
 }
 .indicia.single-column {
   padding-bottom: var(--size-500);
@@ -48,14 +47,16 @@
 }
 
 @media screen and (min-width: 64rem) {
-  .indicia {
+  .indicia.single-column {
     > .container {
       display: flex;
       justify-content: space-around;
+      align-items: center;
       .footer-info {
         display: flex;
         justify-content: flex-start;
         flex: 1;
+        padding-bottom: 0;
         .footer-site-credit {
           margin: 0 auto;
         }

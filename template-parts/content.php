@@ -41,9 +41,9 @@
 				the_excerpt();
 				?>
 				<p>
-				<a href="<?php echo get_permalink(); ?>">Continue reading: <strong><?php the_title(); ?></strong></a>
+				<a href="<?php echo get_permalink(); ?>" class="button button-primary">Continue reading <strong><?php the_title(); ?></strong></a>
 			</p>
-			<?php } 
+			<?php }
 
 			wp_link_pages( array(
 				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'atl-v1' ),

@@ -19,8 +19,8 @@ get_header();
 		<div class="page-thumbnail">
 			<?php echo get_the_post_thumbnail(12082) ?>
 			<div class="caption">
-				<h1>
-					<?php echo get_the_post_thumbnail_caption(12082); ?>
+				<h1 class="icon-inline">
+					<img src="<?php echo get_template_directory_uri() ?>/images/icons/blog-icon.svg" alt="Blog"><?php echo get_the_post_thumbnail_caption(12082); ?>
 				</h1>
 			</div>
 		</div>

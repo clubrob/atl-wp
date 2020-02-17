@@ -15,6 +15,7 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="p:domain_verify" content="1044a7727eba501d18ed1e1083b5217d”/>
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 	<?php get_template_part('template-parts/favicons'); ?>
 	<?php wp_head(); ?>
