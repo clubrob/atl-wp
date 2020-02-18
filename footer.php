@@ -40,7 +40,7 @@
 						<div class="footer-social">
 							<a href="https://www.instagram.com/ashleytlee"><img src="//localhost:8080/wp-content/uploads/2020/02/SocialMedia_Icons_Instagram-01.svg" alt="Instagram"></a>
 							<a href="https://www.facebook.com/ashley.t.leeministry/"><img src="//localhost:8080/wp-content/uploads/2020/02/SocialMedia_Icons_Facebook-04.svg" alt="Facebook"></a>
-							<a href=""><img src="//localhost:8080/wp-content/uploads/2020/02/SocialMedia_Icons_YouTube-03.svg" alt="YouTube"></a>
+							<a href="https://www.youtube.com/user/Bekylee9991"><img src="//localhost:8080/wp-content/uploads/2020/02/SocialMedia_Icons_YouTube-03.svg" alt="YouTube"></a>
 							<a href="https://www.pinterest.com/AshleyTLee/"><img src="//localhost:8080/wp-content/uploads/2020/02/SocialMedia_Icons_Pinterest-02.svg" alt="Pinterest"></a>
 						</div>
 					</div>
