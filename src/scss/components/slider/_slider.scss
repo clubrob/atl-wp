@@ -1,6 +1,6 @@
-.slider {
+.slider, .book-block-wrapper > div {
 	width: 100%;
-	height: 80vw;
+	height: 100vw;
 	background-color: #ccc;
 	display: flex;
 	overflow: hidden;
@@ -19,7 +19,6 @@
 	align-items: center;
 	justify-content: center;
 	padding: 0 .5rem;
-	// background-color: rgba(255, 255, 255, 0.2);
 	cursor: pointer;
 	color: rgba(255, 255, 255, 0.8);
 	z-index: 2;
@@ -31,7 +30,7 @@
 	left: auto;
 	right: 0;
 }
-.slider > .slide {
+.slider > .slide, .book-block {
 	flex: 0 0 100%;
 	display: flex;
 	flex-direction: column;
@@ -43,28 +42,14 @@
 	z-index: 1;
 }
 
-.slide:before {
-	// content: '';
-	// display: block;
-	// position: absolute;
-	// top: 0;
-	// right: 0;
-	// bottom: 0;
-	// left: 0;
-	// width: 100%;
-	// height: 100%;
-	// background: rgba(255,255,255,.3);
-	// z-index: -1;
-}
-
-.slide > div {
+.slide > div, .book-block > div {
 	padding: 1rem 3.5rem;
 	> * + * {
 		padding-top: 1rem;
 	}
 }
 
-.slide-prayer, .slide-ashley, .slide-book {
+.slide-prayer, .slide-ashley, .slide-book, .book-block {
 	background-repeat: no-repeat;
 	p {
 		font-family: var(--font-head);
@@ -90,26 +75,23 @@
 		background-color: rgba(255,255,255,.75);
 	}
 }
-.slide-book {
+.slide-book, .book-block {
 	background-size: cover;
 	background-position: top center;
 	background-color: #88D1D5;
-	> div {
+	.background-assets {
 		display: flex;
 		justify-content: space-between;
 		height: 100%;
 		padding-top: 0;
 		padding-bottom: 0;
 		.col1, .col2 {
-			flex-basis: auto;
 			display: flex;
 			flex-direction: column;
+			flex-basis: auto;
 		}
 		.col1 {
 			display: none;
-			justify-content: space-between;
-			align-items: flex-start;
-			padding-top: 0;
 		}
 		.col2 {
 			position: relative;
@@ -124,10 +106,9 @@
 				bottom: 0;
 			}
 		}
-		.action-wrapper {
-			position: absolute;
-			display: none;
-		}
+	}
+	.call-to-action {
+		padding-top: 0;
 	}
 	&:before {
 		content: '';
@@ -144,23 +125,28 @@
 	}
 }
 @media (min-width: 48rem) {
-	.slider {
+	.slider, .book-block-wrapper > div {
 		height: 45vw;
 	}
-	.slide > div {
+	.slide > div, .book-block > div {
 		padding: 1rem 3.5rem;
 		> * + * {
 			padding-top: 1rem;
 		}
 	}
 
-	.slide-prayer, .slide-ashley, .slide-book {
+	.slide-prayer, .slide-ashley, .slide-book, .book-block {
 		background-repeat: no-repeat;
 		p {
 			font-family: var(--font-head);
+			font-size: var(--size-500) !important;
 			font-weight: bold;
 			color: var(--tertiary);
 			text-align: center;
+		}
+		a {
+			font-size: var(--size-500) !important;
+			padding: 1rem !important;
 		}
 	}
 	.slide-prayer {
@@ -175,57 +161,45 @@
 			background-color: rgba(255,255,255,.85);
 		}
 	}
-	.slide-book {
+	.slide-book, .book-block {
 		background-size: contain;
-		background-position: top center;
-		background-color: #88D1D5;
-		&:before {
-			display: none;
-		}
-		> div {
-			display: flex;
-			justify-content: space-between;
-			height: 100%;
-			padding-top: 0;
-			.col1, .col2 {
-				flex-basis: auto;
-				display: flex;
-				flex-direction: column;
-			}
+		position: relative;
+		.background-assets {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			position: absolute;
+			z-index: -1;
 			.col1 {
-				justify-content: space-between;
+				display: flex;
+				justify-content: center;
 				align-items: flex-start;
-				padding-top: 0;
+				padding-bottom: 10%;
+				div:first-child {
+					img {
+						width: 90%;
+					}
+				}
+				div:last-child {
+					margin-top: 2.2rem;
+					img {
+						width: 80%;
+					}
+				}
 			}
 			.col2 {
-				position: relative;
-				justify-content: center;
-				align-items: flex-end;
 				img {
-					max-width: 90%;
-				}
-				a {
-					position: absolute;
-					bottom: 0;
-					left: 50%;
+					margin-left: auto;
+					width: 85%;
 				}
 			}
-			.action-wrapper {
-				position: absolute;
-				display: none;
-			}
 		}
-	}
-}
-
-@media (min-width: 64rem) {
-	.slide-prayer, .slide-ashley, .slide-book {
-		p {
-			font-size: var(--size-500) !important;
+		.call-to-action {
+			position: relative;
+			z-index: 1;
+			padding-top: 1rem;
 		}
-		a {
-			font-size: var(--size-500) !important;
-			padding: 1rem !important;
+		&:before {
+			display: none;
 		}
 	}
 }

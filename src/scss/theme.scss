@@ -176,7 +176,8 @@ a {
 }
 
 @media screen and (min-width: 48rem) {
-	.site-content .page-thumbnail .caption h1 {
+	.site-content .page-thumbnail .caption h1,
+	.wp-block-cover h1 {
 		font-size: var(--size-1000);
 	}
 	.prayer-book-block {
@@ -207,162 +208,163 @@ textarea {
 	width: 100%;
 }
 
-.book-block-wrapper {
-	width: 100%;
-	height: 80vw;
-	background-color: #ccc;
-	display: flex;
-	overflow: hidden;
-	position: relative;
-	margin: 0;
-}
-.book-block {
-  background-repeat: no-repeat;
-  background-size: cover;
-	background-position: top center;
-  background-color: #88D1D5;
-  height: 100%;
-	> div {
-		display: flex;
-		justify-content: space-between;
-		height: 100%;
-		padding-top: 0;
-    padding-bottom: 1.5rem;
-    padding-left: 3.5rem;
-    padding-right: 3.5rem;
-    > * + * {
-      padding-top: 1rem;
-    }
-		.col1, .col2 {
-			flex-basis: auto;
-			display: flex;
-			flex-direction: column;
-		}
-		.col1 {
-			display: none;
-			justify-content: space-between;
-			align-items: flex-start;
-			padding-top: 0;
-		}
-		.col2 {
-			position: relative;
-			justify-content: center;
-			align-items: center;
-			img {
-				max-width: 90%;
-				width: 90%;
-			}
-			a {
-				position: absolute;
-				bottom: 0;
-			}
-		}
-		.action-wrapper {
-			position: absolute;
-			display: none;
-		}
-	}
-	&:before {
-		content: '';
-		display: block;
-		position: absolute;
-		top: 0;
-		right: 0;
-		bottom: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		background: rgba(255,255,255,.3);
-		z-index: -1;
-	}
-	p {
-		font-family: var(--font-head);
-		font-weight: bold;
-		font-size: var(--size-400);
-		color: var(--tertiary);
-		text-align: center;
-	}
-	a {
-		font-size: var(--size-400) !important;
-		padding: .5rem !important;
-	}
-}
-@media (min-width: 48rem) {
-  .book-block-wrapper {
-    height: 45vw;
-    .wp-block-group__inner-container {
-      width: 100%;
-    }
-  }
-  .book-block {
-    background-repeat: no-repeat;
-    background-size: contain;
-		background-position: top center;
-		background-color: #88D1D5;
-		&:before {
-			display: none;
-		}
-		> div {
-			display: flex;
-			justify-content: space-between;
-			height: 100%;
-      padding-top: 0;
-      padding-bottom: 1.5rem;
-      padding-left: 3.5rem;
-      padding-right: 3.5rem;
-      width: 100%;
-      max-width: 1760px;
-      margin: 0 auto;
-      > * + * {
-        padding-top: 1rem;
-      }
-			.col1, .col2 {
-				flex-basis: auto;
-				display: flex;
-				flex-direction: column;
-			}
-			.col1 {
-				justify-content: space-between;
-				align-items: flex-start;
-				padding-top: 0;
-			}
-			.col2 {
-				position: relative;
-				justify-content: center;
-				align-items: flex-end;
-				img {
-					max-width: 90%;
-				}
-				a {
-					position: absolute;
-					bottom: 0;
-					left: 50%;
-				}
-			}
-			.action-wrapper {
-				position: absolute;
-				display: none;
-			}
-		}
-		p {
-			font-family: var(--font-head);
-			font-weight: bold;
-			color: var(--tertiary);
-			text-align: center;
-		}
-  }
-}
-@media (min-width: 64rem) {
-	.book-block {
-		p {
-			font-size: var(--size-500) !important;
-		}
-		a {
-			font-size: var(--size-500) !important;
-			padding: 1rem !important;
-		}
-	}
-}
-@media (min-width: 85.375rem) {
-
-}
+// .book-block-wrapper {
+// 	width: 100%;
+// 	height: 100vw;
+// 	background-color: #ccc;
+// 	display: flex;
+// 	overflow: hidden;
+// 	position: relative;
+// 	margin: 0;
+// }
+// .book-block {
+// 	background-repeat: no-repeat;
+// 	background-size: cover;
+// 	background-position: top center;
+// 	background-color: #88d1d5;
+// 	height: 100%;
+// 	> div {
+// 		display: flex;
+// 		justify-content: space-between;
+// 		height: 100%;
+// 		padding-top: 0;
+// 		padding-bottom: 1.5rem;
+// 		padding-left: 3.5rem;
+// 		padding-right: 3.5rem;
+// 		> * + * {
+// 			padding-top: 1rem;
+// 		}
+// 		.col1,
+// 		.col2 {
+// 			flex-basis: auto;
+// 			display: flex;
+// 			flex-direction: column;
+// 		}
+// 		.col1 {
+// 			display: none;
+// 			justify-content: space-between;
+// 			align-items: flex-start;
+// 			padding-top: 0;
+// 		}
+// 		.col2 {
+// 			position: relative;
+// 			justify-content: center;
+// 			align-items: center;
+// 			img {
+// 				max-width: 90%;
+// 				width: 90%;
+// 			}
+// 			a {
+// 				position: absolute;
+// 				bottom: 0;
+// 			}
+// 		}
+// 		.action-wrapper {
+// 			position: absolute;
+// 			display: none;
+// 		}
+// 	}
+// 	&:before {
+// 		content: '';
+// 		display: block;
+// 		position: absolute;
+// 		top: 0;
+// 		right: 0;
+// 		bottom: 0;
+// 		left: 0;
+// 		width: 100%;
+// 		height: 100%;
+// 		background: rgba(255, 255, 255, 0.3);
+// 		z-index: -1;
+// 	}
+// 	p {
+// 		font-family: var(--font-head);
+// 		font-weight: bold;
+// 		font-size: var(--size-400);
+// 		color: var(--tertiary);
+// 		text-align: center;
+// 	}
+// 	a {
+// 		font-size: var(--size-400) !important;
+// 		padding: 0.5rem !important;
+// 	}
+// }
+// @media (min-width: 48rem) {
+// 	.book-block-wrapper {
+// 		height: 45vw;
+// 		.wp-block-group__inner-container {
+// 			width: 100%;
+// 		}
+// 	}
+// 	.book-block {
+// 		background-repeat: no-repeat;
+// 		background-size: contain;
+// 		background-position: top center;
+// 		background-color: #88d1d5;
+// 		p {
+// 			font-size: var(--size-500) !important;
+// 		}
+// 		a {
+// 			font-size: var(--size-500) !important;
+// 			padding: 1rem !important;
+// 		}
+// 		&:before {
+// 			display: none;
+// 		}
+// 		> div {
+// 			display: flex;
+// 			justify-content: space-between;
+// 			height: 100%;
+// 			padding-top: 0;
+// 			padding-bottom: 1.5rem;
+// 			padding-left: 3.5rem;
+// 			padding-right: 3.5rem;
+// 			width: 100%;
+// 			max-width: 1760px;
+// 			margin: 0 auto;
+// 			> * + * {
+// 				padding-top: 1rem;
+// 			}
+// 			.col1,
+// 			.col2 {
+// 				flex-basis: auto;
+// 				display: flex;
+// 				flex-direction: column;
+// 			}
+// 			.col1 {
+// 				justify-content: space-between;
+// 				align-items: flex-start;
+// 				padding-top: 0;
+// 			}
+// 			.col2 {
+// 				position: relative;
+// 				justify-content: center;
+// 				align-items: flex-end;
+// 				img {
+// 					max-width: 90%;
+// 				}
+// 				a {
+// 					position: absolute;
+// 					bottom: 0;
+// 					left: 50%;
+// 				}
+// 			}
+// 			.action-wrapper {
+// 				position: absolute;
+// 				display: none;
+// 			}
+// 		}
+// 		p {
+// 			font-family: var(--font-head);
+// 			font-weight: bold;
+// 			color: var(--tertiary);
+// 			text-align: center;
+// 		}
+// 	}
+// }
+// @media (min-width: 64rem) {
+// 	.book-block {
+// 	}
+// }
+// @media (min-width: 85.375rem) {
+// }

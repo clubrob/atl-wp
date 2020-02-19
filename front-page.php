@@ -33,14 +33,20 @@ get_header();
 				</div>
 			</div>
 			<div class="slide slide-book" id="home-slide-3" style="background-image: url(<?php echo get_site_url(); ?>/wp-content/uploads/2020/02/AshleyTLee_Assets_BannerBackground.jpg);">
-				<div>
+				<div class="background-assets">
 					<div class="col1">
 						<div><img src="<?php echo get_site_url(); ?>/wp-content/uploads/2020/02/AshleyTLee_Assets_LeanOnGodsUnderstanding.png" alt=""></div>
 						<div><img src="<?php echo get_site_url(); ?>/wp-content/uploads/2020/02/book-logo.jpg" alt=""></div>
 					</div>
 					<div class="col2">
 						<img src="<?php echo get_site_url(); ?>/wp-content/uploads/2020/02/AshleyTLee_Assets_Book.png" alt="">
-						<a href="https://www.amazon.com/Lean-Gods-Understanding-have-stress-free-ebook/dp/B084L7M4GF" class="button button-info">Purchase on Amazon</a></<a>
+					</div>
+				</div>
+				<div class="call-to-action">
+					<div class="col1">
+						<p>
+							<a href="https://www.amazon.com/Lean-Gods-Understanding-have-stress-free-ebook/dp/B084L7M4GF" class="button button-info">Purchase on Amazon</a>
+						</p>
 					</div>
 				</div>
 			</div>

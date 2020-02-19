@@ -16,7 +16,8 @@
 			<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 		</header><!-- .entry-header -->
 	<?php endif; ?>
-	<?php atl_v1_post_thumbnail(); ?>
+
+	<?php //atl_v1_post_thumbnail(); ?>
 
 	<div class="entry-content">
 		<?php
