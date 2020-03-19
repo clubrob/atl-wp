@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "gulp serve",
-    "css": "sass ./src/scss/theme.scss ./theme.css"
+    "css": "sass ./src/scss/theme.scss --style=compressed ./theme.css"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",

@@ -2,7 +2,9 @@
 
 a.button,
 input.button,
-button.button {
+button.button,
+div.wpforms-container-full .wpforms-form input[type=submit],
+div.wpforms-container-full .wpforms-form button[type=submit] {
   display: inline-block;
   padding: 1rem;
   font-family: var(--font-head);
@@ -21,11 +23,13 @@ a:visited.button.button-primary,
 a:active.button.button-primary,
 a:link.button.button-primary,
 input.button.button-primary,
-button.button.button-primary {
-  background: var(--primary);
-  color: white;
+button.button.button-primary,
+div.wpforms-container-full .wpforms-form input[type=submit],
+div.wpforms-container-full .wpforms-form button[type=submit] {
+  background: var(--primary) !important;
+  color: white !important;
   &:hover {
-    background: var(--primary-mid);
+    background: var(--primary-mid) !important;
   }
 }
 a.button.button-info,
