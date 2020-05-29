@@ -5,29 +5,30 @@
   "license": "MIT",
   "scripts": {
     "dev": "gulp serve",
+    "build": "gulp build",
     "css": "sass ./src/scss/theme.scss --style=compressed ./theme.css"
   },
   "devDependencies": {
-    "@babel/core": "^7.8.4",
-    "@babel/preset-env": "^7.8.4",
-    "@babel/register": "^7.8.3",
+    "@babel/core": "^7.10.1",
+    "@babel/preset-env": "^7.10.1",
+    "@babel/register": "^7.10.1",
     "browser-sync": "^2.26.7",
-    "browserify": "^16.5.0",
+    "browserify": "^16.5.1",
     "del": "^5.1.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-babel": "^8.0.0",
     "gulp-csso": "^4.0.1",
-    "gulp-sass": "^4.0.2",
+    "gulp-sass": "^4.1.0",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-uglify-es": "^2.0.0",
     "prettier": "^1.19.1",
     "pump": "^3.0.0"
   },
   "dependencies": {
-    "bootstrap": "^4.4.1",
-    "dayjs": "^1.8.20",
+    "bootstrap": "^4.5.0",
+    "dayjs": "^1.8.28",
     "normalize.css": "^8.0.1",
-    "sass": "^1.25.0"
+    "sass": "^1.26.7"
   }
 }
