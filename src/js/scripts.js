@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
 	const menuToggle = document.querySelector('.menu-toggle');
 	menuToggle.addEventListener('click', e => {
-		document.body.classList.toggle('nav-open');
+		document.querySelector('html').classList.toggle('nav-open');
 	});
 
 	const siteHeader = document.querySelector('.site-header');
