@@ -1,5 +1,6 @@
 @use "sass:color";
 
+.button > a,
 a.button,
 input.button,
 button.button,
@@ -17,7 +18,7 @@ div.wpforms-container-full .wpforms-form button[type=submit] {
   border-radius: 0;
   transition: background-color 200ms;
 }
-
+.button.button-primary > a,
 a.button.button-primary,
 a:visited.button.button-primary,
 a:active.button.button-primary,

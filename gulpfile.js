@@ -1,4 +1,4 @@
-const {src, dest, parallel, series, watch} = require('gulp');
+const {src, dest, series, watch} = require('gulp');
 const del = require('del');
 
 const sass = require('gulp-sass');
@@ -10,9 +10,6 @@ const browserify = require('browserify');
 const sourcemaps = require('gulp-sourcemaps');
 const terser = require('gulp-uglify-es').default;
 
-const browser = require('browser-sync').create();
-const reload = browser.reload;
-
 sass.compiler = require('sass');
 
 function processCSS() {
@@ -22,8 +19,7 @@ function processCSS() {
     }))
     .pipe(autoprefixer())
     .pipe(csso())
-    .pipe(dest('./'))
-    .pipe(browser.stream());
+    .pipe(dest('./'));
   }
 
   function processJS() {
@@ -32,20 +28,14 @@ function processCSS() {
     .pipe(babel())
     .pipe(terser())
     .pipe(sourcemaps.write())
-    .pipe(dest('./js'))
-    .pipe(browser.stream());
+    .pipe(dest('./js'));
 }
 
-function browserSyncInit() {
-  browser.init({
-    port: 5500,
-    proxy: 'localhost:8080'
-  });
+function fileWatch() {
   watch('src/scss/**/*.scss', processCSS);
   watch('src/js/**/*.js', processJS);
-  watch('**/*.php').on('change', reload);
 }
 
-exports.serve = series(processCSS, processJS, browserSyncInit);
+exports.watch = series(processCSS, processJS, fileWatch);
 
 exports.build = series(processCSS, processJS);

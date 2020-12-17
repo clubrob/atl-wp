@@ -58,8 +58,19 @@ get_header();
 
 		endif;
 		?>
-
 		</main><!-- #main -->
+		<div class="wp-block-group three-book-block full-width">
+            <div class="wp-block-group__inner-container">
+                <h2 class="has-text-align-center text-light"> Explore Ashley T Lee’s 3 Books Available on Amazon</h2>
+                <p class="has-text-align-center button button-primary"><a
+                        href="https://www.amazon.com/Ashley-T-Lee/e/B081TJ4BQQ?ref_=dbs_p_ebk_r00_abau_000000">Shop
+                        Now</a></p>
+                <figure class="wp-block-image size-full"><a
+                        href="https://i2.wp.com/localhost/wp-content/uploads/2020/12/3-books-mobile-992px.jpg"><img
+                            src="https://i2.wp.com/localhost/wp-content/uploads/2020/12/3-books-mobile-992px.jpg?w=640"
+                            alt="" class="wp-image-12432" data-recalc-dims="1"></a></figure>
+            </div>
+        </div>
 	</div><!-- #primary -->
 
 <?php
