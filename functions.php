@@ -122,7 +122,7 @@ add_action( 'widgets_init', 'atl_v1_widgets_init' );
 function atl_v1_scripts() {
 	wp_enqueue_style( 'atl-v1-style', get_stylesheet_uri() );
 
-	wp_enqueue_style( 'atl-v1-theme', get_template_directory_uri() . '/theme.css' );
+	wp_enqueue_style( 'atl-v1-theme', get_template_directory_uri() . '/theme.css', array(), '20210122', 'all' );
 
 	wp_enqueue_script( 'atl-v1-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
@@ -137,6 +137,11 @@ function atl_v1_scripts() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'atl_v1_scripts' );
+
+function be_reusable_blocks_admin_menu() {
+    add_menu_page( 'Reusable Blocks', 'Reusable Blocks', 'edit_posts', 'edit.php?post_type=wp_block', '', 'dashicons-editor-table', 22 );
+}
+add_action( 'admin_menu', 'be_reusable_blocks_admin_menu' );
 
 // Remove comments from Jetpack photos lightbox
 function tweakjp_rm_comments_att( $open, $post_id ) {

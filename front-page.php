@@ -24,7 +24,25 @@ get_header();
 					<p><a href="<?php echo get_site_url(); ?>/about" class="button button-primary">About Ashley</a></p>
 				</div>
 			</div>
-			<div class="slide slide-new-book" id="home-slide-2" style="background-image: url(<?php echo get_site_url(); ?>/wp-content/uploads/2020/12/Background-1920px.jpg);">
+			<div class="slide slide-third-book" id="home-slide-2" style="background-image: url(<?php echo get_site_url(); ?>/wp-content/uploads/2022/01/HeroBackground.jpg);">
+				<div class="background-assets">
+					<div class="col1">
+						<div><img src="<?php echo get_site_url(); ?>/wp-content/uploads/2022/01/Booktitle-06.png" alt=""></div>
+						<div><img src="<?php echo get_site_url(); ?>/wp-content/uploads/2022/01/AshleyTLee_BookPortrait-07.png" alt=""></div>
+					</div>
+					<div class="col2">
+						<img src="<?php echo get_site_url(); ?>/wp-content/uploads/2022/01/AshleyTLee_BookImage-03.png" alt="">
+					</div>
+				</div>
+				<div class="call-to-action">
+					<div class="col1">
+						<p>
+							<a href="https://www.amazon.com/gp/aw/d/0578312719/ref=dbs_a_w_dp_0578312719" class="button button-info">Purchase on Amazon</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="slide slide-new-book" id="home-slide-3" style="background-image: url(<?php echo get_site_url(); ?>/wp-content/uploads/2020/12/Background-1920px.jpg);">
 				<div class="background-assets">
 					<div class="col1">
 						<div><img src="<?php echo get_site_url(); ?>/wp-content/uploads/2020/12/AshleyTLee_BookTitle.png" alt=""></div>
@@ -42,7 +60,7 @@ get_header();
 					</div>
 				</div>
 			</div>
-			<div class="slide slide-book" id="home-slide-3" style="background-image: url(<?php echo get_site_url(); ?>/wp-content/uploads/2020/02/AshleyTLee_Assets_BannerBackground.jpg);">
+			<div class="slide slide-book" id="home-slide-4" style="background-image: url(<?php echo get_site_url(); ?>/wp-content/uploads/2020/02/AshleyTLee_Assets_BannerBackground.jpg);">
 				<div class="background-assets">
 					<div class="col1">
 						<div><img src="<?php echo get_site_url(); ?>/wp-content/uploads/2020/02/AshleyTLee_Assets_LeanOnGodsUnderstanding.png" alt=""></div>
@@ -60,7 +78,7 @@ get_header();
 					</div>
 				</div>
 			</div>
-			<div class="slide slide-prayer" id="home-slide-4" style="background-image: url(<?php echo get_site_url(); ?>/wp-content/uploads/2019/08/home-banner-2560px-e1566397314330.jpg);">
+			<div class="slide slide-prayer" id="home-slide-5" style="background-image: url(<?php echo get_site_url(); ?>/wp-content/uploads/2019/08/home-banner-2560px-e1566397314330.jpg);">
 				<div class="single-column">
 					<p>Prayer Request Journal - These compact books are organized to keep your daily prayer on-the-go and designed to easily fit in a bag.</p>
 					<p>
