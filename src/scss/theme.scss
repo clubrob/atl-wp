@@ -475,7 +475,6 @@ textarea {
 // }
 // @media (min-width: 85.375rem) {
 // }
-@media screen and (min-width: 48rem) {
 .page-id-12073 {
   background-color: var(--feature-blue);
   .entry-title {
@@ -491,9 +490,70 @@ textarea {
       display: flex;
       justify-content: space-around;
       align-items: center;
-      white-space: nowrap;
       margin: 6rem auto 3rem auto;
       max-width: 80rem;
+    }
+    .atl-podcast-block {
+      padding: 0 0 4rem 0;
+      .wp-block-columns {
+        .wp-block-column:first-child {
+          order: 1;
+          figure {
+            padding: 0 var(--size-500);
+          }
+        }
+        .wp-block-column:last-child {
+          order: 0;
+        }
+      }
+    }
+    .featured-paragraph {
+      border-top: 2px solid white;
+      border-bottom: 2px solid white;
+      padding: 1.35em 0;
+      font-size: 1.5rem;
+      margin-bottom: 5rem;
+    }
+    .podcast-apps {
+      max-width: 70rem;
+      margin: 0 auto;
+      padding: 0 var(--size-500);
+      gap: var(--size-500);
+      a {
+        background-color: var(--primary);
+        padding: .5em 1em;
+        transition: all 200ms;
+        &:hover {
+          background-color: var(--primary-mid) !important;
+        }
+      }
+    }
+    .featured-episodes {
+      margin: 0 auto 5rem auto;
+      padding: 0 var(--size-500);
+      max-width: 80rem;
+      gap: 5rem;
+      .wp-block-image {
+        img {
+          filter: drop-shadow(.75rem .75rem 0px var(--primary));
+        }
+        margin-bottom: 2rem;
+      }
+      .wp-block-media-text {
+        margin-bottom: 2rem;
+      }
+      h3 {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 48rem) {
+.page-id-12073 {
+  .entry-content {
+    h2 {
+      white-space: nowrap;
       &:before, &:after {
         display: block;
         content: "";
@@ -509,43 +569,24 @@ textarea {
       }
     }
     .atl-podcast-block {
+      padding: 4rem 0;
       > div {
         width: 100%;
       }
-    }
-    .featured-paragraph {
-      border-top: 2px solid white;
-      border-bottom: 2px solid white;
-      padding: 1.35em 0;
-      font-size: 1.5rem;
-      margin-bottom: 5rem;
+      .wp-block-columns {
+        .wp-block-column:first-child {
+          order: 0;
+        }
+        .wp-block-column:last-child {
+          order: 1;
+        }
+      }
     }
     .podcast-apps {
-      max-width: 70rem;
-      margin: 0 auto;
-      gap: 1.5rem;
       flex-wrap: nowrap;
-      a {
-        background-color: var(--primary);
-        padding: .5em 1em;
-      }
     }
     .featured-episodes {
-      margin: 0 auto 5rem auto;
-      max-width: 80rem;
-      gap: 5rem;
-      .wp-block-image {
-        img {
-          filter: drop-shadow(.75rem .75rem 0px var(--primary));
-        }
-        margin-bottom: 2rem;
-      }
-      .wp-block-media-text {
-        margin-bottom: 2rem;
-      }
-      h3 {
-        margin-top: 0;
-      }
+      gap: 5%;
     }
   }
 }
