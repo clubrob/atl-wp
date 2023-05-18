@@ -521,7 +521,7 @@ textarea {
       gap: var(--size-500);
       a {
         background-color: var(--primary);
-        padding: .5em 1em;
+        padding: 0.5em 1em;
         transition: all 200ms;
         &:hover {
           background-color: var(--primary-mid) !important;
@@ -535,7 +535,7 @@ textarea {
       gap: 5rem;
       .wp-block-image {
         img {
-          filter: drop-shadow(.75rem .75rem 0px var(--primary));
+          filter: drop-shadow(0.75rem 0.75rem 0px var(--primary));
         }
         margin-bottom: 2rem;
       }
@@ -552,10 +552,6 @@ textarea {
         background: transparent;
         color: white;
         --flow-space: 0;
-        * {
-          //margin-top: 0;
-          //margin-bottom: 0;
-        }
         button[data-plyr="play"] {
           width: 60px;
           height: 60px;
@@ -572,7 +568,7 @@ textarea {
           display: none;
         }
         .plyr__progress {
-          margin-left: .5rem;
+          margin-left: 0.5rem;
         }
       }
     }
@@ -580,44 +576,45 @@ textarea {
 }
 
 @media screen and (min-width: 48rem) {
-.page-id-12073 {
-  .entry-content {
-    h2 {
-      white-space: nowrap;
-      &:before, &:after {
-        display: block;
-        content: "";
-        background: white;
-        height: 2px;
-        width: 100%;
-      }
-      &:after {
-        margin-left: 1rem;
-      }
-      &:before {
-        margin-right: 1rem;
-      }
-    }
-    .atl-podcast-block {
-      padding: 4rem 0;
-      > div {
-        width: 100%;
-      }
-      .wp-block-columns {
-        .wp-block-column:first-child {
-          order: 0;
+  .page-id-12073 {
+    .entry-content {
+      h2 {
+        white-space: nowrap;
+        &:before,
+        &:after {
+          display: block;
+          content: "";
+          background: white;
+          height: 2px;
+          width: 100%;
         }
-        .wp-block-column:last-child {
-          order: 1;
+        &:after {
+          margin-left: 1rem;
+        }
+        &:before {
+          margin-right: 1rem;
         }
       }
-    }
-    .podcast-apps {
-      flex-wrap: nowrap;
-    }
-    .featured-episodes {
-      gap: 5%;
+      .atl-podcast-block {
+        padding: 4rem 0;
+        > div {
+          width: 100%;
+        }
+        .wp-block-columns {
+          .wp-block-column:first-child {
+            order: 0;
+          }
+          .wp-block-column:last-child {
+            order: 1;
+          }
+        }
+      }
+      .podcast-apps {
+        flex-wrap: nowrap;
+      }
+      .featured-episodes {
+        gap: 5%;
+      }
     }
   }
-}
 }
