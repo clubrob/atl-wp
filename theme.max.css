@@ -3754,6 +3754,32 @@ textarea {
 .page-id-12073 .entry-content .featured-episodes h3 {
   margin-top: 0;
 }
+.page-id-12073 .entry-content .featured-episodes .plyr--full-ui input[type=range] {
+  color: var(--primary);
+}
+.page-id-12073 .entry-content .featured-episodes .plyr__controls {
+  background: transparent;
+  color: white;
+  --flow-space: 0;
+}
+.page-id-12073 .entry-content .featured-episodes .plyr__controls button[data-plyr=play] {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: var(--primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page-id-12073 .entry-content .featured-episodes .plyr__controls button[data-plyr=play] svg {
+  fill: white;
+}
+.page-id-12073 .entry-content .featured-episodes .plyr__controls [data-plyr=download] {
+  display: none;
+}
+.page-id-12073 .entry-content .featured-episodes .plyr__controls .plyr__progress {
+  margin-left: 0.5rem;
+}
 
 @media screen and (min-width: 48rem) {
   .page-id-12073 .entry-content h2 {

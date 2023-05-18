@@ -545,6 +545,36 @@ textarea {
       h3 {
         margin-top: 0;
       }
+      .plyr--full-ui input[type="range"] {
+        color: var(--primary);
+      }
+      .plyr__controls {
+        background: transparent;
+        color: white;
+        --flow-space: 0;
+        * {
+          //margin-top: 0;
+          //margin-bottom: 0;
+        }
+        button[data-plyr="play"] {
+          width: 60px;
+          height: 60px;
+          border-radius: 50%;
+          background-color: var(--primary);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          svg {
+            fill: white;
+          }
+        }
+        [data-plyr="download"] {
+          display: none;
+        }
+        .plyr__progress {
+          margin-left: .5rem;
+        }
+      }
     }
   }
 }
